@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is form tutorial</title>
+</head>
+
+<body>
+    <h1>HTML forms</h1>
+    <form action="backend.php">
+        <label for="Name">Name</label>
+        <div>
+            <input type="text" name="name" id="Name">
+        </div>
+        <br>
+        <div>
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" name="check" id="checkbox">
+        </div>
+        <br>
+        <div>
+            Roll No. <input type="text" name="Roll no.">
+        </div>
+        <br>
+        <div>
+            <label for="car">car</label>
+            <select name="mycar " id="car">
+                <option>Alto</option>
+                <option>fortuner</option>
+                <option>mustang</option>
+            </select>
+        </div>
+        <div>
+            Class <input type="text" name="class">
+            <br>
+        </div>
+        <div>
+            <br>
+            user-mail <input type="text" name="email">
+            <br>
+        </div>
+        <br>
+        <div>
+            <input type="date" name="date">
+        </div>
+        <br>
+        <div>
+            enter your age<input type="number" name="myage">
+        </div>
+        <br>
+        <div>
+            write about youself:(min 30 words)<br><textarea name="mytext" rows="10"cols="90"></textarea>
+        </div>
+        <div>
+            browse:<input type="file" name="mybrowse">
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="mygender">Female<input type="radio" name="mygender">
+                  other<input type="radio" name="mygender">       
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+
+</html>
